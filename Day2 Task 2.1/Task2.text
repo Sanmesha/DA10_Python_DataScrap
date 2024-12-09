@@ -1,0 +1,6 @@
+find difference between accessing variable of class without creating object and creating object
+
+Ans:-Class variables are shared between all instances and can be accessed directly through that class without 
+having to create an object.This is because instance variables are unique to each object and need to be instantiated to access them.
+Modifying a class variable affects all instances of the class because they share the same variable.Modifying an instance 
+variable affects that specific instance.
