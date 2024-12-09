@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Favourite Food</title>
+    <style>
+        /* 1. Background color for the whole page */
+        body {
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 2. Header section */
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 3. Navigation bar styling */
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        /* 4. Style for sections */
+        section {
+            margin: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 5. ID for ingredients section */
+        #ingredients {
+            background-color: #e0f7fa;
+            border-left: 5px solid #00796b;
+        }
+
+        /* 6. Styling for unordered list */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* 7. ID for preparation section */
+        #preparation {
+            background-color: #fff3e0;
+            border-left: 5px solid #ff6f00;
+        }
+
+        /* 8. ID for health benefits section */
+        #benefits {
+            background-color: #f3e5f5;
+            border-left: 5px solid #8e24aa;
+        }
+
+        /* 9. Styling for ordered list */
+        ol {
+            list-style-type: decimal;
+            padding-left: 30px;
+        }
+
+        /* 10. Text styling for all h2 headings */
+        h2 {
+            color: #444;
+            font-size: 1.8em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* 11. Class for all images */
+        .food-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* 12. Styling for footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+           margin-top: 20px;
+            width: 100%;
+        }
+
+        /* 13. Class for links inside the footer */
+        .footer-link {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .footer-link:hover {
+            background-color: #555;
+        }
+
+        /* 14. Responsive design for mobile */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            section {
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+
+        /* 15. Class for list items */
+        .list-item {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 8px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>My Favourite Food</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#preparation">Preparation</a></li>
+            <li><a href="#benefits">Health Benefits</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <article>
+                <h2>Introduction</h2>
+                <p>Pizza is my favorite food because of its delicious taste, variety of toppings, and the way it brings people together.</p>
+                <img src="D:\da10_gitDemo\Python Task1\Data Scrap\food-pizza-wallpaper-preview.jpg" alt="Delicious pizza">
+            </article>
+        </section>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Pizza dough</li>
+                <li>Tomato sauce</li>
+                <li>Cheese</li>
+                <li>Vegetables</li>
+            </ul>
+        </section>
+
+        <section id="preparation">
+            <h2>Preparation</h2>
+            <ol>
+                <li>Prepare the dough and let it rise.</li>
+                <li>Spread the tomato sauce on the dough.</li>
+                <li>Add cheese and your favorite toppings.</li>
+                <li>Bake in the oven until golden and crispy.</li>
+            </ol>
+        </section>
+
+        <section id="benefits">
+            <h2>Benifits</h2>
+        </section>
+    </main>
+    <footer>
+        <p>Written by Sanmesha Bhagat - Food Lover</p>
+    </footer>
+</body>
+</html>
